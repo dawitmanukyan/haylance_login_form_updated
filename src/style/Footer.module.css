@@ -1,0 +1,13 @@
+.footer {
+    height: 10vh;
+    background: rgb(255, 255, 255);
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.footerallr {
+    color: green;
+    cursor: pointer;
+}

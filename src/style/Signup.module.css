@@ -1,0 +1,165 @@
+.loginpanel {
+    display: flex;
+}
+.loginform {
+    height: 630px;
+    width: 520px;
+    background: #fff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.signup {
+    height: 630px;
+    width: 520px;
+    background: rgb(104,255,0);
+    background: linear-gradient(-45deg, rgba(104,255,0,1) 0%, rgba(8,117,27,1) 100%);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: cl 5s infinite;
+    transition: all ease .3s;
+    background-size: 400% 400%;
+}
+.lgform {
+    height: 600px;
+    width: 400px;
+}
+.lginput {
+    height: 44px;
+    width: 330px;
+    border-radius: 6px;
+    border: 1px solid gray;
+    margin-top: 20px;
+    font-size: 15px;
+    padding:  3px 6px;
+}
+.lgbtn {
+    margin: 20px;
+    height: 50px;
+    width: 250px;
+    background: #42b72a;
+    color: #fff;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+}
+.lgbtn:hover {
+    animation: pulse 1s infinite;
+    transition: .3s;
+  }
+@keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    70% {
+      transform: scale(.9);
+    }
+      100% {
+      transform: scale(1);
+    }
+  }
+  @keyframes cl {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+.signinheader {
+    color: black;
+    font-size: 40px;
+}
+.frgpass {
+    text-decoration: none;
+    color: rgb(102, 97, 97);
+}
+.signupdiv {
+  height: 440px;
+  width: 400px;
+
+}
+.signupheader {
+  color: #fff;
+  font-size: 40px;
+}
+.signupinf {
+  color: #fff;
+  font-size: 25px;
+
+}
+.lgbtnsign {
+  margin: 20px;
+  height: 50px;
+  width: 250px;
+  background: #fff;
+  color: #42b72a;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+}
+.lgbtnsign:hover {
+  animation: pulse 1s infinite;
+  transition: .3s;
+}
+.lghr {
+  border: 1px solid #fff;
+}
+.lgsocmedias {
+  display: flex;
+  justify-content: center;
+}
+.rullab {
+  color: black;
+  font-size: 17px;
+}
+.rulesdiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 35px;
+}
+.recaptchadiv {
+  display: flex;
+  justify-content: center;
+}
+.haylance {
+  font-size: 40px;
+}
+@media  screen and  (max-width: 1070px) {
+  * {
+    transition: all ease 0.5s;
+  }
+  .loginpanel {
+    display: block;
+  }
+  .loginform,.signup {
+    border-radius: 0px;
+  }
+}
+@media screen and (max-width: 550px){
+  .loginform,.signup {
+    width: 440px;
+    border-radius: 0px;
+  }
+}
+@media  screen and (max-width: 480px) {
+  .loginform,.signup {
+    width: 100%;
+  }
+}

@@ -1,0 +1,29 @@
+.header {
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.haylance {
+    display: flex;
+    align-items: center;
+    font-size: 55px;
+    color: black;
+    cursor: pointer;
+}
+.hy {
+    display: flex;
+}
+.hay {
+    color: green;
+}
+@media screen and (max-width: 1070px) {
+    .haylance {
+        font-size: 45px;
+    }
+}
+@media screen and (max-width: 430px){
+    .haylance {
+        font-size: 40px;
+    }
+}
